@@ -1,0 +1,681 @@
+/*------------------- fonts------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*---------------- Top Banner ----------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.top-section {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 60px 150px;
+    padding: 30px 110px 0px 110px;
+    height: 750px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.heading {
+    font-size: 90px;
+    margin-bottom: 0px;
+}
+
+.top-section-para {
+    padding-bottom: 20px;
+}
+
+.watch-live-button {
+    background-color: red;
+    padding: 10px 30px;
+    width: 120px;
+    text-align: center;
+    border-radius: 3px;
+    /* cursor: pointer; */
+    transition: 0.8s;
+}
+
+/*------------ animation -----------*/
+.watch-live-button:hover {
+    background-color: black;
+    color: red;
+    border-radius: 2000px;
+    width: 500px;
+    font-size: 30px;
+}
+
+.watch-live:hover {
+    color: red;
+}
+
+.button-decoration,
+.button,
+.up-match-blog,
+.blog-text {
+    transition: 0.5s;
+}
+
+.button-decoration:hover {
+    color: white;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.up-match-blog:hover {
+    background-color: red;
+}
+
+.blog-text:hover {
+    color: white;
+}
+
+/* ---------------------------- */
+.watch-live {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.arrow {
+    padding-left: 10px;
+}
+
+.brazil-image {
+    padding-top: 13px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+
+/* -------------------Middle Section ------------------------*/
+.middle-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*-------------------- Button List --------------------------*/
+
+.button-list {
+    background-color: black;
+    margin-left: 150px;
+    width: 260px;
+    height: 200px;
+    padding: 20px 25px;
+    border-radius: 12px;
+}
+
+.button {
+    background-color: white;
+    padding: 10px 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.button-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-button {
+    background-color: red;
+    padding: 10px 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+.blog {
+    text-decoration: none;
+    color: white;
+}
+
+.up-match {
+    background-color: red;
+    padding: 10px 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+.up-match-text {
+    color: white;
+}
+
+.up-match-blog {
+    background-color: white;
+    padding: 10px 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.blog-text {
+    color: black;
+}
+
+/*-------------------- Channel List -------------------------*/
+
+.channel-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1313px;
+
+}
+
+.fixture {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1310px;
+
+}
+
+.fixture-match {
+    border: 1px solid lightgrey;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+
+.channel {
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.channel-image {
+    padding-bottom: 10px;
+}
+
+.transfer-button {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.transfer {
+    text-decoration: none;
+    color: black;
+    font-weight: 100px;
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+.time-and-comment {
+    display: flex;
+    margin-left: 15px;
+    color: rgb(151, 151, 151);
+}
+
+.comment {
+    padding-left: 60px;
+}
+
+.view-all-button {
+    display: none;
+}
+
+.channel-match {
+    border: 1px solid lightgrey;
+    width: 300px;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.ger-fra {
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    padding: 50px 25px 50px 25px;
+    padding-bottom: 0px;
+}
+
+.germany-flag {
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.france-flag {
+    padding-left: 20px;
+}
+
+.germany-vs-france {
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.ger-fra-time {
+    margin-top: 15px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+/* -------------------------Footer -----------------------------*/
+
+.footer {
+    background-color: #161616;
+    text-align: center;
+    color: white;
+    height: 360px;
+    padding: 3%;
+    margin-top: 100px;
+}
+
+.goal {
+    font-size: 50px;
+}
+
+hr {
+    margin-bottom: 60px;
+    height: 1px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.247);
+}
+
+.footer-button {
+    color: gray;
+    text-decoration: none;
+    padding-left: 60px;
+    font-weight: 100px;
+}
+
+.contact-info {
+    padding-bottom: 40px;
+}
+
+.social-media {
+    color: gray;
+    font-size: 30px;
+    margin-left: 20px;
+    /* padding-left: 50px; */
+}
+
+/*-------------------------- Media Query ---------------------------*/
+/*-------------------------- For Tablets ---------------------------*/
+@media screen and (max-width: 768px) {
+    .top-section {
+        margin: 50px;
+        height: 335px;
+        padding: 20px 110px 10px 60px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .top-section-para {
+        font-size: 8px;
+        padding-bottom: 20px;
+    }
+
+    .brazil-image {
+        padding-top: 15px;
+        padding-left: 20px;
+        width: 300px;
+        height: 330px;
+    }
+
+    /* -----------------animation ----------------*/
+    .watch-live-button:hover {
+        background-color: black;
+        color: red;
+        border-radius: 2000px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .watch-live:hover {
+        color: red;
+    }
+
+    /* ----------------------------------------------- */
+
+    /* ------------------Button---------------- */
+    .button-list {
+        background-color: white;
+        display: flex;
+        margin-top: 0px;
+        margin-left: 30px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .button {
+        border: 1px solid rgba(211, 211, 211, 0.247);
+        background-color: white;
+        margin-right: 10px;
+        font-size: 15px;
+        height: 25px;
+        width: 210px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+    }
+
+    .button-decoration {
+        text-decoration: none;
+        color: black;
+    }
+
+    .blog-button {
+        background-color: red;
+        margin-right: 10px;
+        font-size: 15px;
+        height: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .blog {
+        text-decoration: none;
+        color: white;
+    }
+
+    .middle-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .up-match {
+        background-color: red;
+        padding: 10px 30px;
+        width: 150px;
+        text-align: center;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+
+    .up-match-text {
+        color: white;
+    }
+
+    .up-match-blog {
+        background-color: white;
+        padding: 10px 30px;
+        width: 150px;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        border: 1px solid rgba(211, 211, 211, 0.247);
+    }
+
+    .blog-text {
+        color: black;
+    }
+
+    /* -------------------- Channel List ---------------------*/
+    .channel-list {
+
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin-left: 30px;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .fixture {
+        /* border: 1px solid green; */
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .germany-flag {
+        padding-left: 10px;
+    }
+
+    /*----------------------- View All Button --------------------*/
+    .view-all-button {
+        display: block;
+    }
+
+    .view-all-button {
+        background-color: red;
+        padding: 5px 30px;
+        width: 90px;
+        text-align: center;
+        border-radius: 12px;
+        font-size: 22px;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    .view {
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer {
+        margin-top: 75px;
+        height: 440px;
+    }
+
+    .footer-button {
+        padding-bottom: 40px;
+        padding-left: 50px;
+    }
+
+    .pad-top {
+        margin-top: 30px;
+    }
+
+}
+
+/*-------------------------- Media Query ---------------------------*/
+/*-------------------------- For Mobile ---------------------------*/
+@media screen and (max-width: 600px) {
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 650px;
+        margin: 25px;
+        padding: 20px 110px 10px 60px;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+
+    .heading {
+        padding-left: 30px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .top-section-para {
+        text-align: center;
+        padding-left: 60px;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+
+    .brazil-image {
+        padding-top: 25px;
+        padding-left: 40px;
+        width: 100%;
+        height: 370px;
+    }
+
+    /*----------------------- Button -------------------------*/
+    .watch-live-button {
+        margin-left: 130px;
+        background-color: red;
+        padding: 10px 30px;
+        width: 120px;
+        text-align: center;
+        border-radius: 3px;
+    }
+
+    .watch-live {
+        text-decoration: none;
+        color: white;
+    }
+
+    .arrow {
+        padding-left: 10px;
+    }
+
+    .button-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-left: 130px;
+        width: 260px;
+        height: 200px;
+        padding: 20px 25px;
+        border-radius: 12px;
+        justify-content: center;
+    }
+
+    .button {
+        border: 1px solid rgba(211, 211, 211, 0.575);
+        background-color: white;
+        padding: 20px 30px 30px 30px;
+        width: 250px;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .mobile {
+        width: 150px;
+        margin-left: 55px;
+
+    }
+
+    .button-decoration {
+        text-decoration: none;
+        color: black;
+    }
+
+    .blog-button {
+        background-color: red;
+        padding: 20px 30px 30px 30px;
+        width: 150px;
+        margin-left: 55px;
+        text-align: center;
+        border-radius: 12px;
+        font-size: 22px;
+    }
+
+    .blog {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*----------------------- Channel List -----------------------*/
+    .channel {
+        border-radius: 20px;
+    }
+
+    .channel-list {
+        display: grid;
+        grid-template-columns: auto;
+        width: 96%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .view-all-button {
+        display: none;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 750px;
+    }
+
+    .footer-button {
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .fixture {
+        display: grid;
+        grid-template-columns: auto;
+        width: 96%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .germany-flag {
+        padding-left: 125px;
+    }
+
+    .up-match {
+        background-color: red;
+        text-align: center;
+        border-radius: 12px;
+        font-size: 25px;
+    }
+
+    .up-match-text {
+        color: white;
+    }
+
+    .up-match-blog {
+        background-color: white;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        border: 1px solid rgba(211, 211, 211, 0.575);
+    }
+
+    .blog-text {
+        color: black;
+    }
+}
