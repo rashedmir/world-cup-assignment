@@ -57,7 +57,9 @@ body {
 .button-decoration,
 .button,
 .up-match-blog,
-.blog-text {
+.blog-text,
+.transfer,
+.transfer-button {
     transition: 0.5s;
 }
 
@@ -67,13 +69,24 @@ body {
 
 .button:hover {
     background-color: red;
+    border: 1px solid white;
 }
 
 .up-match-blog:hover {
     background-color: red;
+    border: 1px solid white;
 }
 
 .blog-text:hover {
+    color: white;
+}
+
+.transfer-button:hover {
+    background-color: red;
+    border: transparent;
+}
+
+.transfer:hover {
     color: white;
 }
 
